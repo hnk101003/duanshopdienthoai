@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng nhập</title>
+    <link rel="stylesheet" href="login.css">
+    <script src="js/login.js"></script>
+</head>
+
+<body>
+    <div  class="top">
+        <div class="trangchu">
+            <a href="index.html">My Phone</a>
+        </div>
+       
+       </div>
+    
+        
+    <div class="all">
+        <h1>ĐĂNG NHẬP</h1>
+        <form action="#" onsubmit=" kiemtraForm()">
+            <label>Mã khách hàng</label> <br>
+            <input type="text" class="ma_kh" id="ma_kh">
+            <p id="thongbao1"></p>
+            <label>Họ và tên</label> <br>
+            <input type="text" class="ma_kh" id="ho_ten">
+            <p id="thongbao2"></p>
+            <label>Email</label> <br>
+            <input type="email" class="ma_kh" id="email">
+            <p id="thongbao3"></p>
+
+            <label>Giới tính</label>
+            <fieldset>
+                <input type="radio" value="Nam" name="gioi_tinh" /> <strong>Nam</strong>
+                <input type="radio" value="Nữ" name="gioi_tinh" /> <strong>Nữ</strong>
+            </fieldset>
+            <p id="thongbao4"></p>
+
+
+            <label>Quốc tịch</label> <br>
+            <select class="ma_kh" id="quoc_tich">
+                <option selected="selected">Chọn quốc tịch</option>
+                <option>Việt Nam</option>
+                <option>Pháp</option>
+                <option>Thụy Điển</option>
+                <option>Đức</option>
+                <option>Angola</option>
+            </select>
+            <p id="thongbao6"></p>
+
+            <label>Ghi chú: </label> <br>
+            <textarea cols="52" rows="3" id="ghi_chu"tabindex="5"></textarea>
+            <p id="thongbao7"></p>
+            <div class="dang_ky">
+                <input type="submit" id="dang_ky" value="Đăng ký">
+            </div>
+        </form>
+        <div class="hotline">
+            <div>Hotline: 0392605722</div>
+    </div>
+    <script src="https://uhchat.net/code.php?f=8e5f2c"></script>
+</body>
+
+</html>
